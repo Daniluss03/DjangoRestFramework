@@ -23,5 +23,6 @@ urlpatterns = [
     path('',include('abogados.urls')),
     path('admin/', admin.site.urls),
     path('',include('login.urls')),
+    path('',include('FormularioContacto.urls')),
     re_path(r'^auth/',obtain_auth_token)
 ]

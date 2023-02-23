@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'abogados.apps.AbogadosConfig',
     'login.apps.LoginConfig',
     'rest_framework.authtoken',
-   
+   'FormularioContacto.apps.FormulariocontactoConfig'
 ]
 
 MIDDLEWARE = [
